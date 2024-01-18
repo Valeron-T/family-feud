@@ -12,8 +12,8 @@ export default function Login(props) {
         <LanguageSwitcher />
       </div>
       <TitleLogo insert="" />
-      <div className="flex flex-col text-white">
-        <div className="flex flex-row justify-between text-1xl px-2">
+      <div className="flex flex-col ">
+        <div className="flex flex-row justify-between text-1xl px-2 text-white">
           <p className="uppercase pb-2">{t("room code")}</p>
         </div>
         <input
@@ -44,7 +44,7 @@ export default function Login(props) {
           placeholder={t("enter your name")}
         ></input>
       </div>
-      <div className="flex flex-row items-center text-white space-x-5 mb-8">
+      <div className="flex flex-row items-center text-white space-x-5 b-8">
         <button
           className="shadow-md flex-grow rounded-md bg-success-300 p-4 w-2/3 text-2xl uppercase"
           onClick={() => {
@@ -54,7 +54,7 @@ export default function Login(props) {
           <div className="flex-grow">{t("play")}</div>
         </button>
         <button
-          className="shadow-md rounded-md bg-secondary-300 p-4 text-2xl uppercase"
+          className="shadow-md rounded-md bg-secondary-300 p-4 text-2xl uppercase md:flex hidden"
           onClick={() => {
             props.hostRoom();
           }}
