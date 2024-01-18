@@ -36,7 +36,7 @@ export default function Title(props) {
         className="align-middle inline-block"
       >
         <div className="flex flex-col space-y-10">
-          <div className="flex-grow">
+          <div className="flex-grow flex justify-center self-center items-center">
             {props.game.settings.logo_url ? (
               <img src={`${props.game.settings.logo_url}`} size={titleSize} />
             ) : (

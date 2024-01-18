@@ -298,8 +298,9 @@ export default function TitleLogo(props) {
 </svg>
   `;
   return (
-    <div>
-      <div dangerouslySetInnerHTML={{ __html: logo }} />
+    <div className="flex justify-center items-center">
+      {/* <div dangerouslySetInnerHTML={{ __html: logo }} /> */}
+      <img src="/logo.png" className="sm:max-w-[50%] self-center"></img>
     </div>
   );
 }

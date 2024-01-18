@@ -227,7 +227,7 @@ export default function Home() {
     <>
       <Head>
         <title>{t("Family Feud")}</title>
-        <link rel="icon" href="x.png"></link>
+        <link rel="icon" href="techstatic_logo.png"></link>
         <meta name="author" content="Joshua Cold" />
         <meta
           name="description"

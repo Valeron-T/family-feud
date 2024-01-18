@@ -44,7 +44,7 @@ export default function Login(props) {
           placeholder={t("enter your name")}
         ></input>
       </div>
-      <div className="flex flex-row items-center text-white space-x-5">
+      <div className="flex flex-row items-center text-white space-x-5 mb-8">
         <button
           className="shadow-md flex-grow rounded-md bg-success-300 p-4 w-2/3 text-2xl uppercase"
           onClick={() => {

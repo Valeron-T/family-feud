@@ -16,7 +16,7 @@ module.exports = {
         extend: {
           // colors is used here for demonstration purposes
           colors: {
-              background: "#18181B",
+              background: "#000000",
               success: {
                 900: "#365314",
                 700: "#3F6212",
