@@ -66,7 +66,7 @@ function SourceCode() {
 
 export default function Footer(props) {
   return (
-    <div className="absolute bottom-6 left-0 min-w-full">
+    <div className="absolute bottom-6 left-0 min-w-full hidden">
       <hr className="pb-4" />
       <div className="flex flex-row items-center justify-evenly">
         <SourceCode />

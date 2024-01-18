@@ -12,9 +12,9 @@ export default function Login(props) {
         <LanguageSwitcher />
       </div>
       <TitleLogo insert="" />
-      <div className="flex flex-col">
+      <div className="flex flex-col text-white">
         <div className="flex flex-row justify-between text-1xl px-2">
-          <p className="uppercase">{t("room code")}</p>
+          <p className="uppercase pb-2">{t("room code")}</p>
         </div>
         <input
           className="border-4 border-secondary-600 p-2 rounded-2xl text-2xl uppercase"
@@ -29,8 +29,8 @@ export default function Login(props) {
       </div>
 
       <div className="flex flex-col">
-        <div className="flex flex-row justify-between text-1xl px-2">
-          <p className="uppercase">{t("name")}</p>
+        <div className="flex flex-row justify-between text-white text-1xl px-2">
+          <p className="uppercase pb-2">{t("name")}</p>
           <p>{12 - props.playerName.length}</p>
         </div>
         <input
