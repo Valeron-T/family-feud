@@ -8,7 +8,7 @@ function RoundPointTally(props) {
   let size = 72 - `${props.points}`.length * 8;
   return (
     <div
-      style={{ borderWidth: 12 }}
+      style={{ borderWidth: 8 }}
       className="border-black bg-gradient-to-tr from-primary-900 to-primary-500 p-1"
     >
       {/* text within svg can resize the text based on container*/}
@@ -59,7 +59,7 @@ export default function Round(props) {
       </div>
       <div className="flex flex-row justify-center">
         {props.game.settings.hide_questions === false ? (
-          <p className="text-end sm:text-1xl text-2xl text-foreground">{round.question}</p>
+          <p className="text-2xl text-white text-center px-5 flex-grow font-extrabold uppercase max-sm:p-12 pb-0 p-8 ">{round.question}</p>
         ) : (
           <></>
         )}
