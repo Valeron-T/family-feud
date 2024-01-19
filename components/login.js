@@ -54,7 +54,7 @@ export default function Login(props) {
           <div className="flex-grow">{t("play")}</div>
         </button>
         <button
-          className="shadow-md rounded-md bg-secondary-300 p-4 text-2xl uppercase md:flex hidden"
+          className="shadow-md rounded-md bg-secondary-300 p-4 text-2xl uppercase lg:flex hidden"
           onClick={() => {
             props.hostRoom();
           }}
